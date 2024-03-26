@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PKW Media</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dist/css/media-query.css">
+    <link rel="stylesheet" href="phone.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+</head>
+
+<body>
+    <div id="main">
+        <nav class="navbar transparent">
+            <a href="#main">
+                <div class="logo">
+                    <img src="/public/images/Logo.svg" alt="">
+                </div>
+            </a>
+            <div class="nav-items">
+                <a href=" #video" class="nav-menus">
+                    Videos
+                </a>
+                <a href=" #testimonials" class="nav-menus">
+                    Testimonials
+                </a>
+                <a href="#faqs" class="nav-menus">
+                    FAQs
+                </a>
+                <a href="#pricings" class="nav-menus">
+                    Pricing
+                </a>
+            </div>
+        </nav>
+        <main class="hero-section" id="hero">
+            <div class="hero-title" data-scroll data-scroll-speed="3">
+                <h1 data-scroll>
+                    We Create
+                </h1>
+                <h1 data-scroll>
+                    The Best Content
+                </h1>
+                <h1 data-scroll>
+                    For Your Business
+                </h1>
+            </div>
+            <div class="hero-subtitle" data-scroll data-scroll-speed="3">
+                <p>We help businesses grow with help of content marketing and powerful edits that makes their personal
+                    brand
+                    more engaging resulting in growth.</p>
+            </div>
+            <div class="hero-btn" data-scroll data-scroll-speed="3">
+                <button onclick="Calendly.initPopupWidget({url: 'https://calendly.com/kasliwalparv02/30min'});return false;">
+                    BOOK A CALL
+                </button>
+            </div>
+        </main>
+        <div class="videos-section" id="video">
+            <div class="videos-title title">
+                <p>Videos</p>
+            </div>
+            <div class="edited-videos">
+                <div class="phone-graphic phone-graphic1" data-scroll data-scroll-speed="1"
+                    data-scroll-direction="horizontal">
+                    <div class="phone-case">
+                        <div class="phone-container-outer">
+                            <div class="phone-container-inner">
+                                <div class="phone-messages">
+                                    <video id="edited1" src="public/images/edited1.mp4" type="video/mp4" autoplay
+                                        controls muted  loopstyle="z-index: 999;"></video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="phone-graphic phone-graphic2" data-scroll data-scroll-speed="2"
+                    data-scroll-direction="vertical">
+                    <div class="phone-case">
+                        <div class="phone-container-outer">
+                            <div class="phone-container-inner">
+                                <div class="phone-messages">
+                                    <video src="public/images/edited2.mp4" id="edited1" autoplay controls muted loop
+                                        style="z-index: 999;"></video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="phone-graphic phone-graphic3" data-scroll data-scroll-speed="-3"
+                    data-scroll-direction="horizontal">
+                    <div class="phone-case">
+                        <div class="phone-container-outer">
+                            <div class="phone-container-inner">
+                                <div class="phone-messages">
+                                    <video src="public/images/edited3.mp4" id="edited1" autoplay controls muted loop
+                                        style="z-index: 999;"></video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="second-section" id="testimonials">
+            <div class="testimonials-title title">
+                <p>Testimonials</p>
+            </div>
+            <div class="videos">
+                <div class="testimonial-video" data-scroll data-scroll-speed="1" data-scroll-direction="vertical">
+                    <video id="myVideo" src="public/images/testimonialvideo1.mp4" autoplay controls muted loop></video>
+                </div>
+                <div class="testimonial-video second-video" data-scroll data-scroll-speed="-1"
+                    data-scroll-direction="vertical">
+                    <video src="public/images/testimonialvideo2.mp4" id="myVideo" autoplay controls muted loop></video>
+                </div>
+            </div>
+        </div>
+        <div class="packages-sec" id="pricings">
+            <div class="packages-title title">
+                <p>Pricing</p>
+            </div>
+            <div class="pricings">
+                <div class="basic-pack pack" data-scroll data-scroll-speed="1">
+                    <div class="basic-header pack-header">
+                        <h2 id="auto-type1">Starter</h2>
+                        <p>(10 Reels)</p>
+                    </div>
+                    <div class="basic-dets pack-dets">
+                        <ul>
+                            <li><span class="col-blue">35$</span>A Reel</li>
+                            <li>Digital Product</li>
+                            <li>4 Consultation Calls</li>
+                        </ul>
+                    </div>
+                    <div class="basic-cta-btn pack-btn">
+                        <button onclick="Calendly.initPopupWidget({url: 'https://calendly.com/kasliwalparv02/30min'});return false;">
+                            BOOK A CALL
+                        </button>
+                    </div>
+                </div>
+                <div class="pro-pack pack" data-scroll data-scroll-speed="1">
+                    <div class="pro-header pack-header">
+                        <h2 id="auto-type2">Pro</h2>
+                        <p>(20 Reels)</p>
+                    </div>
+                    <div class="pro-dets pack-dets">
+                        <ul>
+                            <li><span class="col-blue">30$</span>A Reel</li>
+                            <li>Digital Product 1</li>
+                            <li>Digital Product 2</li>
+                            <li>4 Consultation Calls</li>
+                        </ul>
+                    </div>
+                    <div class="pro-cta-btn pack-btn">
+                        <button onclick="Calendly.initPopupWidget({url: 'https://calendly.com/kasliwalparv02/30min'});return false;">
+                            BOOK A CALL
+                        </button>
+                    </div>
+                </div>
+                <div class="advanced-pack pack" data-scroll data-scroll-speed="1">
+                    <div class="advanced-header pack-header">
+                        <h2 id="auto-type3">Advanced</h2>
+                        <p>(30 Reels)</p>
+                    </div>
+                    <div class="advanced-dets pack-dets">
+                        <ul>
+                            <li><span class="col-blue">25$</span>A Reel</li>
+                            <li>Digital Product 1</li>
+                            <li>Digital Product 2</li>
+                            <li>Community (Discord)</li>
+                            <li>Community (Skool)</li>
+                            <li>Landing Page</li>
+                            <li>4 Consultation Calls</li>
+                        </ul>
+                    </div>
+                    <div class="advanced-cta-btn pack-btn">
+                        <button onclick="Calendly.initPopupWidget({url: 'https://calendly.com/kasliwalparv02/30min'});return false;">
+                            BOOK A CALL
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="faqs-sec" id="faqs">
+            <div class="faqs-title title">
+                <p>Frequently Asked Questions</p>
+            </div>
+            <div class="faqs-dets">
+                <h1><span class="col-white">Your Questions,</span> Answered...</h1>
+            </div>
+            <div class="faqs">
+                <div class="first-faq accordion">
+                    <div class="faq-que accordion-item">
+                        <div class="accordion-title">
+                            <p>How are you Different?</p>
+                            <img src="/public/images/faq-btn-img.svg" alt="">
+                        </div>
+                        <div class="accordion-content">
+                            <p>We personally help our clients not only with the services as well as personal guidance
+                                towards their way to building a personal brand.</p>
+                        </div>
+                    </div>
+                    <div class="faq-que accordion-item">
+                        <div class="accordion-title">
+                            <p>What are your prices?</p>
+                            <img src="/public/images/faq-btn-img.svg" alt="">
+                        </div>
+                        <div class="accordion-content">
+                            We have listed our per edit price as per the packages and other prices as per the
+                            requirements. You can book a call with us.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-left">
+                <h1>Book Your <span id="underline">Free Session</span></h1>
+                <p>Make Your Business Shine!</p>
+                <button onclick="Calendly.initPopupWidget({url: 'https://calendly.com/kasliwalparv02/30min'});return false;">BOOK NOW!</button>
+                <div class="rights">
+                    <p>© 2024 PKW Media. All rights reserved | Created By <a href="https://www.linkedin.com/in/pratik-trivedi-dev/" target="_blank">Pratik Trivedi</a></p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="social-icons">
+                    <a href="https://x.com/parvco/status/1768121433098465632?s=46" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff"
+                            viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                            <path
+                                d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+                        </svg>
+                    </a>
+                    <a href="https://youtube.com/@parvkasliwal?si=S2tGWkv0VyQr_SXR" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff"
+                            viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                            <path
+                                d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/parvco?igsh=MWFlNTUwaWJ6aWI2eA%3D%3D&utm_source=qr"
+                        target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff"
+                            viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                            <path
+                                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
